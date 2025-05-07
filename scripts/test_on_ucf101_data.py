@@ -15,7 +15,7 @@ import yaml
 torch.cuda.empty_cache()
 gc.collect()
 
-config_path = r'/media/basheer/OVGU/Projects/HAR_Project/cluster/github_repo/configs/config.yaml'
+config_path = r'....../configs/config.yaml'
 # ---- Load Configurations from config.yaml ----
 with open(config_path, "r") as f:
     config = yaml.safe_load(f)
