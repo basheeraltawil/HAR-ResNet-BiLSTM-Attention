@@ -24,7 +24,7 @@ cv2.setUseOptimized(True)
 cv2.setNumThreads(4)  # Use 4 threads for better parallelization while avoiding overhead
 import yaml
 # Load configurations
-config_path = r'/media/basheer/OVGU/Projects/HAR_Project/cluster/github_repo/configs/config.yaml'
+config_path = r'....../configs/config.yaml'
 # ---- Load Configurations from config.yaml ----
 with open(config_path, "r") as f:
     config = yaml.safe_load(f)
