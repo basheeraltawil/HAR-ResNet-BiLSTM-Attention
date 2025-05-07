@@ -37,3 +37,11 @@ HAR-ResNet-BiLSTM-Attention/
 │   ├── test_on_pc_camera.py     # Test model with webcam input
 │   ├── test_on_ucf101_data.py   # Evaluate model on full UCF101 test set
 │   └── training_model_bilstm.py # Train model with extracted features
+
+## Setup Instructions
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/basheeraltawil/HAR-ResNet-BiLSTM-Attention.git
+cd HAR-ResNet-BiLSTM-Attention
