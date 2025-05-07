@@ -20,7 +20,7 @@ Our framework combines:
 
 ---
 
-## 📂 Project Structure
+## Directory Structure
 
 ```bash
 HAR-ResNet-BiLSTM-Attention/
