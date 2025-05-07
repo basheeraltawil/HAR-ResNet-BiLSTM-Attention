@@ -37,8 +37,7 @@ HAR-ResNet-BiLSTM-Attention/
 │   ├── test_on_pc_camera.py     # Test model with webcam input
 │   ├── test_on_ucf101_data.py   # Evaluate model on full UCF101 test set
 │   └── training_model_bilstm.py # Train model with extracted features
-
-
+└── README.md
 
 
 
