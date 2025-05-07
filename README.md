@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 This implementation was tested on UCF101 dataset. To prepare the dataset:
 
-1. Download UCF101 from [official website](https://www.kaggle.com/datasets/matthewjansen/ucf101-action-recognition)
+1. Download UCF101 from [kaggle website](https://www.kaggle.com/datasets/matthewjansen/ucf101-action-recognition)
 2. Prepare annotation folders
 3. Update dataset path in config file
 
@@ -101,7 +101,7 @@ python scripts/training_model_bilstm.py
 
 Evaluate on UCF101 test set:
 ```bash
-python scripts/test_on_ucf101_data.py --model_path checkpoints/best_model.pth --test_features extracted_features/test/
+python scripts/test_on_ucf101_data.py 
 ```
 
 ### Demo with Webcam
@@ -139,3 +139,8 @@ DOI = {10.3390/s25092930}
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+##  Acknowledgements
+
+- **Dataset**: [UCF101 Action Recognition Dataset](https://www.crcv.ucf.edu/research/data-sets/ucf101/)
+- **Citation**: Khurram Soomro, Amir Roshan Zamir and Mubarak Shah, ["UCF101: A Dataset of 101 Human Action Classes From Videos in The Wild"](https://arxiv.org/abs/1212.0402), CRCV-TR-12-01, November, 2012.
