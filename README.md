@@ -38,9 +38,15 @@ HAR-ResNet-BiLSTM-Attention/
 │   ├── test_on_ucf101_data.py   # Evaluate model on full UCF101 test set
 │   └── training_model_bilstm.py # Train model with extracted features
 
-## Setup Instructions
+
+
+
+
+## ⚙️ Setup Instructions
 
 ### 1. Clone Repository
+
+Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/basheeraltawil/HAR-ResNet-BiLSTM-Attention.git
