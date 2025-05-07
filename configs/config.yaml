@@ -1,0 +1,51 @@
+# config.yaml
+DEVICE: "cuda:0"
+# Define the file path to your row data
+DATA_DIR: './dataset'
+TRAIN_ANNOTATION_FILE: ./dataset/train.csv'
+VAL_ANNOTATION_FILE: './dataset/val.csv'
+TEST_ANNOTATION_FILE: './dataset/test.csv'
+CLASS_NAMES_PATH: './dataset/classInd.txt'
+
+
+# Define the output directory for extracted features and checkpoints
+EF_OUT_DIR: r'./extracted_feature'   #directory to save extracted features to
+CHECKPOINT_OUT_DIR: r'./checkpoints'  #directory to save best checkpoint to
+CHECKPOINT_TEST_DIR: './bilstm_final_model.pth'  #directory to load checkpoint from for testing
+ 
+
+
+# Define the file path to extracted features and labels
+TRAIN_FEATURES_PATH: './extracted_feature/lstm_train_features.npy'
+TRAIN_LABELS_PATH: './extracted_feature/lstm_train_labels.npy'
+
+VAL_FEATURES_PATH: './extracted_feature/lstm_val_features.npy'
+VAL_LABELS_PATH: './extracted_feature/lstm_val_labels.npy'
+
+TEST_FEATURES_PATH: './extracted_feature/test_features.npy'
+TEST_LABELS_PATH: './extracted_feature/test_labels.npy'
+
+
+# Define log files for each dataset
+TRAIN_LOG_FILE: './logs/training.txt'
+VAL_LOG_FILE: './logs/validation.txt'
+TEST_LOG_FILE: './logs/testing.txt'
+
+
+
+# Model hyperparameters
+LEARNING_RATE: 0.0002
+WEIGHT_DECAY: 1e-4
+DROP_OUT: 0.35
+HIDDEN_SIZE: 700
+NUM_LAYERS: 2
+NUM_HEADS: 4
+N_EPOCHS: 60
+BATCH_SIZE: 4
+LR_FACTOR: 0.1
+LR_PATIENCE: 10
+
+# Frame selection parameters
+NO_FRAMES: 70
+MAX_NUM_FRAMES: 30  # Max frames for feature extraction
+MOTION_THRESHOLD: 1e3  # Threshold for selecting dynamic frames
