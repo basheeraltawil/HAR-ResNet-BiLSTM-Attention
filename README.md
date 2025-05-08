@@ -36,6 +36,7 @@ HAR-ResNet-BiLSTM-Attention/
 │   ├── lstm_model.py            # BiLSTM + Attention model definition
 │   ├── test_on_pc_camera.py     # Test model with webcam input
 │   ├── test_on_ucf101_data.py   # Evaluate model on full UCF101 test set
+│   ├── test_on_one_video.py   # Evaluate model on one video from any other sources
 │   └── training_model_bilstm.py # Train model with extracted features
 └── README.md
 ```
@@ -102,6 +103,10 @@ python scripts/training_model_bilstm.py
 Evaluate on UCF101 test set:
 ```bash
 python scripts/test_on_ucf101_data.py 
+```
+Evaluate on one video from any other data sources:
+```bash
+python scripts/test_on_one_video.py
 ```
 
 ### Demo with Webcam
