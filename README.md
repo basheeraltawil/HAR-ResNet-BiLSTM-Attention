@@ -145,7 +145,7 @@ DOI = {10.3390/s25092930}
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##  Acknowledgements
+##  Original Data
 
 - **Dataset**: [UCF101 Action Recognition Dataset](https://www.crcv.ucf.edu/research/data-sets/ucf101/)
 - **Citation**: Khurram Soomro, Amir Roshan Zamir and Mubarak Shah, ["UCF101: A Dataset of 101 Human Action Classes From Videos in The Wild"](https://arxiv.org/abs/1212.0402), CRCV-TR-12-01, November, 2012.
