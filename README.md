@@ -3,8 +3,6 @@
   <a href="https://www.mdpi.com/1424-8220/25/9/2930">
     <img src="https://img.shields.io/badge/DOI-10.3390%2Fs25092930-blue" alt="DOI">
   </a>
-  <img src="https://img.shields.io/github/license/basheeraltawil/HAR-ResNet-BiLSTM-Attention" alt="GitHub license">
-  <img src="https://img.shields.io/github/stars/basheeraltawil/HAR-ResNet-BiLSTM-Attention?style=social" alt="GitHub stars">
 </p>
 
 ![Model Architecture](./images/model.png)
