@@ -15,7 +15,7 @@ This repository provides the full implementation of our human action recognition
 
 **"Multi-Head Attention-Based Framework with Residual Network for Human Action Recognition"**  
  *Sensors, 2025*  
-🔗 [DOI: 10.3390/s25092930](https://www.mdpi.com/1424-8220/25/9/2930)
+
 
 Our framework combines:
 - ✅ **ResNet-18** for extracting spatial features
