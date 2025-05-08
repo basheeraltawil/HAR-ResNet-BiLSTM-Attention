@@ -25,6 +25,7 @@ NUM_LAYERS = int(config["NUM_LAYERS"])
 NUM_HEADS = int(config["NUM_HEADS"])
 CHECKPOINT_TEST_DIR = config['CHECKPOINT_TEST_DIR']
 CLASS_NAMES_PATH = config['CLASS_NAMES_PATH']
+ONE_VIDEO_TEST_FRAMES=int(config['ONE_VIDEO_TEST_FRAMES'])
 
 # Function to load class names
 def load_class_names(file_path):
@@ -36,7 +37,7 @@ def load_class_names(file_path):
     return class_names
 
 # Function to extract features from a video using ResNet18
-def extract_features_from_video(video_path, target_frames=16, target_size=(224, 224)):
+def extract_features_from_video(video_path, target_frames=ONE_VIDEO_TEST_FRAMES, target_size=(224, 224)):
     """
     Extract features from a video file using ResNet18 as feature extractor.
     """
