@@ -47,6 +47,6 @@ LR_PATIENCE: 10
 
 # Frame selection parameters
 NO_FRAMES: 20
-ONE_VIDEO_TEST_FRAMES: 4  #FRAMES FOR ONE VIDEO TESTING
+ONE_VIDEO_TEST_FRAMES: 20  #FRAMES FOR ONE VIDEO TESTING
 MAX_NUM_FRAMES: 30  # Max frames for feature extraction
 MOTION_THRESHOLD: 1e3  # Threshold for selecting dynamic frames
