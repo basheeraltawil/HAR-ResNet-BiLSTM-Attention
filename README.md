@@ -1,4 +1,9 @@
 # <div align="center"> <strong>Multi-Head Attention-Based Framework with Residual Network for Human Action Recognition</strong> </div>
+<div align="center">
+
+![GitHub license](https://img.shields.io/github/license/basheeraltawil/HAR-ResNet-BiLSTM-Attention)
+![GitHub stars](https://img.shields.io/github/stars/basheeraltawil/HAR-ResNet-BiLSTM-Attention?style=social)
+![DOI](https://img.shields.io/badge/DOI-10.3390%2Fs25092930-blue)
 
 ![Model Architecture](./images/model.png)
 
