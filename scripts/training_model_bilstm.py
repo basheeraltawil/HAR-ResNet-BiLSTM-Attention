@@ -65,25 +65,6 @@ test_labels = torch.from_numpy(test_labels_numeric).long()
 os.makedirs(CHECKPOINT_OUT_DIR, exist_ok=True)
 
 
-# Load your numpy data
-# train_features = torch.from_numpy(np.load(r'/media/basheer/OVGU/Projects/HAR_Project/cluster/extracted_feature/lstm_train_features.npy')).float()
-# train_labels0 = np.load(r'/media/basheer/OVGU/Projects/HAR_Project/cluster/extracted_feature/lstm_train_labels.npy')
-# label_encoder = LabelEncoder()
-# train_labels_numeric = label_encoder.fit_transform(train_labels0)
-# train_labels = torch.from_numpy(train_labels_numeric).long()
-
-# val_features = torch.from_numpy(np.load(r'/media/basheer/OVGU/Projects/HAR_Project/cluster/extracted_feature/lstm_val_features.npy')).float()
-# val_labels0 = np.load(r'/media/basheer/OVGU/Projects/HAR_Project/cluster/extracted_feature/lstm_val_labels.npy')
-# label_encoder = LabelEncoder()
-# val_labels_numeric = label_encoder.fit_transform(val_labels0)
-# val_labels = torch.from_numpy(val_labels_numeric).long()
-
-# test_features = torch.from_numpy(np.load(r'/media/basheer/OVGU/Projects/HAR_Project/cluster/github_materials/test_features.npy')).float()
-# test_labels0 = np.load(r'/media/basheer/OVGU/Projects/HAR_Project/cluster/github_materials/test_labels.npy')
-# label_encoder = LabelEncoder()
-# test_labels_numeric = label_encoder.fit_transform(test_labels0)
-# test_labels = torch.from_numpy(test_labels_numeric).long()
-os.makedirs(CHECKPOINT_OUT_DIR, exist_ok=True)
 
 
 
