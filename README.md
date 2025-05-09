@@ -132,17 +132,12 @@ Our method achieves state-of-the-art performance on UCF101 dataset with the foll
 If you find this work useful in your research, please consider citing:
 
 ```bibtex
-@Article{s25092930,
-AUTHOR = {Al-Tawil, Basheer and Jung, Magnus and Hempel, Thorsten and Al-Hamadi, Ayoub},
-TITLE = {Multi-Head Attention-Based Framework with Residual Network for Human Action Recognition},
-JOURNAL = {Sensors},
-VOLUME = {25},
-YEAR = {2025},
-NUMBER = {9},
-ARTICLE-NUMBER = {2930},
-URL = {https://www.mdpi.com/1424-8220/25/9/2930},
-ISSN = {1424-8220},
-DOI = {10.3390/s25092930}
+@article{al2025multi,
+  title={Multi-Head Attention-Based Framework with Residual Network for Human Action Recognition},
+  author={Al-Tawil, Basheer and Jung, Magnus and Hempel, Thorsten and Al-Hamadi, Ayoub},
+  journal={Sensors},
+  year={2025},
+  publisher={Multidisciplinary Digital Publishing Institute}
 }
 ```
 
